@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(120, 119, 109);
+    font-family: 'Trebuchet MS', sans-serif;
+    color: black;
+    display: block;
+    margin: 8px;
+}
+
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+    background-image: url("images/images1.jfif");
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F8FF;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border : 1px solid black;
+}
+
+h3{
+    display: inline-block;
+    margin-left:20px;
+}
+
+nav{
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.hrana{
+    width: 930px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.desno{
+     margin-left: 200px;
+     margin-right: 500px;
+     text-align: left;
+}
+
+.lijevo{
+    margin-left: 500px;
+    margin-right: 200px;
+    text-align: right;
+}
